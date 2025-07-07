@@ -1,15 +1,45 @@
-* {
-    margin: 0px;
+@font-face {
+    font-family: "TJ";
+    src: url(./font_family/TJJoyofsingingB_TTF.ttf);
 }
-:root {
-  --primary-color: #000000;
-  --font-size: 16px;
-}
+
 #mainContainer {
     background: linear-gradient(#5C009E, #530050);
     height: 100vh;
     width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 100px;
+    /* align-items: center; */
 }
-#text {
-    font-size: 3rem;
+
+#findLoverButton {
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    
+
+    margin-top: 100px;
+    width: fit-content;
+    height: fit-content;
+    
+    padding: 2.5vw; 
+    border: 0px;
+    border-radius: 10vw;
+    
+    background-color: #e2d2e6;
+    color: #682f66;
+
+    font-family: "TJ";
+    font-size: 5vw;
+    font-weight: 900;  
+}
+
+#image {
+    width: 25vw;
+
+    border-radius: 100px;
 }
